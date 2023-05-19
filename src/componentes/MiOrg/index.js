@@ -1,8 +1,8 @@
-import { useState } from "react";
+
 import "./MiOrg.css"
 
 const MiOrg = (props) => {
-    //Estado - hooks 
+    //Estado - hooks
     //useState
     //useState() es una funcion
     //const [nombreVariable, funcionActualiza] = useState(valorIniciall)

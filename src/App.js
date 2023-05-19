@@ -8,6 +8,7 @@ import Equipo from './componentes/Equipo';
 import Footer from './componentes/Footer';
 
 
+
 function App() {
   const [mostrarFormulario, actualizarMostrar] = useState(false)
   const[colaboradores, actualizarColaboradores]= useState([{
@@ -38,7 +39,7 @@ function App() {
     id: uuid(),
     equipo: "Programación",
     foto: "https://github.com/belenfrak.png",
-    nombre: "Ma. Belén Fraca",
+    nombre: "María Belén Fraca",
     puesto: "Alumna",
     fav: true
     },
@@ -46,7 +47,7 @@ function App() {
     id: uuid(),
     equipo: "Front End",
     foto: "https://github.com/belenfrak.png",
-    nombre: "Ma. Belén Fraca",
+    nombre: "María Belén Fraca",
     puesto: "Alumna",
     fav: true
   },
@@ -86,7 +87,7 @@ function App() {
     id: uuid(),
     equipo: "Innovación y Gestión",
     foto: "https://github.com/belenfrak.png",
-    nombre: "Ma. Belén Fraca",
+    nombre: "María Belén Fraca",
     puesto: "Dev FullStack",
     fav: true
   },
@@ -94,7 +95,7 @@ function App() {
     id: uuid(),
     equipo: "Data Science",
     foto: "https://github.com/belenfrak.png",
-    nombre: "Ma. Belén Fraca",
+    nombre: "María Belén Fraca",
     puesto: "Estudiante",
     fav: true
   },
