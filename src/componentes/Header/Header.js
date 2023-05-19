@@ -7,4 +7,4 @@ function Header(){
     </header>
 }
 
-export default Header
+export default Header// si no exporto el compnente no voy a poder utilizarlo
