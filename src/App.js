@@ -27,14 +27,7 @@ function App() {
     puesto: "Desarrolladora de software e instructora",
     fav: false
   },
-  {
-    id: uuid(),
-    equipo: "Programación",
-    foto: "https://github.com/lumarka.png",
-    nombre: "Luisa Markarian",
-    puesto: "Alumna",
-    fav: true
-  },
+  
   {
     id: uuid(),
     equipo: "Programación",
